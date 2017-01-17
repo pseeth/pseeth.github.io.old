@@ -11,7 +11,6 @@ excerpt_separator: "<!--more-->"
 title:            Prem Seetharaman
 tagline:          ''
 description:      'I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. My research is in machine learning, music information retrieval, audio source separation, music structure and similarity, and acoustics. I also <a href="http://soundcloud.com/seeth">write music</a>. Contact me at prem [at] u.northwestern.edu.'
-url: /
 
 cv:
   link: /public/cv.pdf
