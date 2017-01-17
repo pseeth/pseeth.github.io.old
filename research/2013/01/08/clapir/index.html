@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      ClapIR &middot; Prem Seetharaman
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <script src="/public/js/picturefill.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>Prem Seetharaman</h1>
+      <p class="lead">I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. My research is in machine learning, music information retrieval, audio source separation, music structure and similarity, and acoustics. I also <a href="http://soundcloud.com/seeth">write music</a>. Contact me at prem [at] u.northwestern.edu.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/research">Research</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/music">Music</a>
+      </li>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/notebooks/">Jupyter Notebooks</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/publications/">Publications</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+
+      <li class="sidebar-nav-item"><a href="/public/cv.pdf" target="_blank">CV</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">ClapIR</h1>
+  <span class="post-date">08 Jan 2013</span>
+  <p class="thumbnail-image">
+<picture>
+    <source srcset="http://prem.seeth.org/generated/clapir-600by368-94bab8.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
+    <source srcset="http://prem.seeth.org/generated/clapir-400by245-94bab8.png" media="(min-width: 40em)">
+    <source srcset="http://prem.seeth.org/generated/clapir-375by230-94bab8.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
+    <source srcset="http://prem.seeth.org/generated/clapir-250by153-94bab8.png" media="(min-width: 30em)">
+    <source srcset="http://prem.seeth.org/generated/clapir-525by322-94bab8.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
+    <source srcset="http://prem.seeth.org/generated/clapir-350by215-94bab8.png">
+    <img src="http://prem.seeth.org/generated/clapir-350by215-94bab8.png" class="center-image" data-location="{{location}}" data-active="nil" alt="test" >
+  </picture>
+
+</p>
+
+<p>ClapIR is an application that allows users to measure the acoustic properties of rooms quickly and easily. From a simple recording of a clap, or other loud noise, the app calculates reverberation time, decay curve, frequency decay, frequency response, and impulse spectra.</p>
+
+<!--more-->
+
+<p>Reverberation time is defined as the amount of time it takes for the impulse to decay by 60 dB. Frequency decay is similar, but is instead applied to various frequency bands within the impulse. This measurement is associated with clarity of sound. Frequency response is the ratio of the direct sound to the reverberant sound. This measurement is associated with warmth or brightness of sound. The impulse spectra is used to determine whether or not you provided a good impulse: one that has roughly equal energy across all frequencies. The decay curve can be used to verify the reverberation time calculation.</p>
+
+<p>ClapIR is based on research done at Northwestern University by Prem Seetharaman and <a href="www.stevetarzia.com">Stephen Tarzia</a>. Our work was published in the 132nd Proceedings of the Audio Engineering Society and presented in Budapest, Hungary in April 2012. Read the paper <a href="public/papers/seetharaman_tarzia_aes12.pdf">here</a>.</p>
+
+<p>ClapIR is available in the <a href="https://play.google.com/store/apps/details?id=com.seeth.clapir">Play store</a> and the <a href="https://itunes.apple.com/us/app/clapir-acoustics-measurement/id521153051?mt=8">iOS app store</a>.</p>
+
+<p>This is an open source project. Code for the Android app is available <a href="http://github.com/pseeth/clapir">here</a>, code for the iOS app is available <a href="http://github.com/starzia/ClapIR">here</a>, and the MATLAB code used to prototype is available <a href="http://github.com/pseeth/claps">here</a>.</p>
+
+</div>
+
+<!--
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/research/2016/12/01/coversong/">
+            Cover song identification with 2D Fourier transform sequences
+            <small>01 Dec 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/research/2016/09/16/audealize/">
+            Audealize
+            <small>16 Sep 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/research/2016/08/01/simultaneous/">
+            Source separation and layering structure
+            <small>01 Aug 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+-->
+
+    </div>
+
+  </body>
+</html>

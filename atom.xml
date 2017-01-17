@@ -1,28 +1,80 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Prem Seetharaman</title>
+ <link href="http://prem.seeth.org/atom.xml" rel="self"/>
+ <link href="http://prem.seeth.org/"/>
+ <updated>2017-01-17T02:26:33-06:00</updated>
+ <id>http://prem.seeth.org</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name></name>
+   <email></email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.contact | xml_escape }}</content>
+   <title>Cover song identification with 2D Fourier transform sequences</title>
+   <link href="http://prem.seeth.org/research/2016/12/01/coversong/"/>
+   <updated>2016-12-01T00:00:00-06:00</updated>
+   <id>http://prem.seeth.org/research/2016/12/01/coversong</id>
+   <content type="html"></content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Audealize</title>
+   <link href="http://prem.seeth.org/research/2016/09/16/audealize/"/>
+   <updated>2016-09-16T00:00:00-05:00</updated>
+   <id>http://prem.seeth.org/research/2016/09/16/audealize</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Source separation and layering structure</title>
+   <link href="http://prem.seeth.org/research/2016/08/01/simultaneous/"/>
+   <updated>2016-08-01T00:00:00-05:00</updated>
+   <id>http://prem.seeth.org/research/2016/08/01/simultaneous</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>six pieces for two voices</title>
+   <link href="http://prem.seeth.org/music/2016/03/13/sixpieces/"/>
+   <updated>2016-03-13T00:00:00-06:00</updated>
+   <id>http://prem.seeth.org/music/2016/03/13/sixpieces</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>four pieces for solo piano</title>
+   <link href="http://prem.seeth.org/music/2015/07/05/fourpieces/"/>
+   <updated>2015-07-05T00:00:00-05:00</updated>
+   <id>http://prem.seeth.org/music/2015/07/05/fourpieces</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>SocialReverb</title>
+   <link href="http://prem.seeth.org/research/2014/11/03/socialreverb/"/>
+   <updated>2014-11-03T00:00:00-06:00</updated>
+   <id>http://prem.seeth.org/research/2014/11/03/socialreverb</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>resonance, for solo cello</title>
+   <link href="http://prem.seeth.org/music/2013/08/02/resonance/"/>
+   <updated>2013-08-02T00:00:00-05:00</updated>
+   <id>http://prem.seeth.org/music/2013/08/02/resonance</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>ClapIR</title>
+   <link href="http://prem.seeth.org/research/2013/01/08/clapir/"/>
+   <updated>2013-01-08T00:00:00-06:00</updated>
+   <id>http://prem.seeth.org/research/2013/01/08/clapir</id>
+   <content type="html"></content>
+ </entry>
+ 
 
 </feed>
