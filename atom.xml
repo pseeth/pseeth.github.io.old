@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Prem Seetharaman</title>
- <link href="//atom.xml" rel="self"/>
- <link href="//"/>
- <updated>2017-01-17T02:44:00-06:00</updated>
- <id>/</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2017-01-17T02:46:18-06:00</updated>
+ <id></id>
  <author>
    <name></name>
    <email></email>
@@ -14,65 +14,65 @@
  
  <entry>
    <title>Cover song identification with 2D Fourier transform sequences</title>
-   <link href="//research/2016/12/01/coversong/"/>
+   <link href="/research/2016/12/01/coversong/"/>
    <updated>2016-12-01T00:00:00-06:00</updated>
-   <id>//research/2016/12/01/coversong</id>
+   <id>/research/2016/12/01/coversong</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Audealize</title>
-   <link href="//research/2016/09/16/audealize/"/>
+   <link href="/research/2016/09/16/audealize/"/>
    <updated>2016-09-16T00:00:00-05:00</updated>
-   <id>//research/2016/09/16/audealize</id>
+   <id>/research/2016/09/16/audealize</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Source separation and layering structure</title>
-   <link href="//research/2016/08/01/simultaneous/"/>
+   <link href="/research/2016/08/01/simultaneous/"/>
    <updated>2016-08-01T00:00:00-05:00</updated>
-   <id>//research/2016/08/01/simultaneous</id>
+   <id>/research/2016/08/01/simultaneous</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>six pieces for two voices</title>
-   <link href="//music/2016/03/13/sixpieces/"/>
+   <link href="/music/2016/03/13/sixpieces/"/>
    <updated>2016-03-13T00:00:00-06:00</updated>
-   <id>//music/2016/03/13/sixpieces</id>
+   <id>/music/2016/03/13/sixpieces</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>four pieces for solo piano</title>
-   <link href="//music/2015/07/05/fourpieces/"/>
+   <link href="/music/2015/07/05/fourpieces/"/>
    <updated>2015-07-05T00:00:00-05:00</updated>
-   <id>//music/2015/07/05/fourpieces</id>
+   <id>/music/2015/07/05/fourpieces</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>SocialReverb</title>
-   <link href="//research/2014/11/03/socialreverb/"/>
+   <link href="/research/2014/11/03/socialreverb/"/>
    <updated>2014-11-03T00:00:00-06:00</updated>
-   <id>//research/2014/11/03/socialreverb</id>
+   <id>/research/2014/11/03/socialreverb</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>resonance, for solo cello</title>
-   <link href="//music/2013/08/02/resonance/"/>
+   <link href="/music/2013/08/02/resonance/"/>
    <updated>2013-08-02T00:00:00-05:00</updated>
-   <id>//music/2013/08/02/resonance</id>
+   <id>/music/2013/08/02/resonance</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>ClapIR</title>
-   <link href="//research/2013/01/08/clapir/"/>
+   <link href="/research/2013/01/08/clapir/"/>
    <updated>2013-01-08T00:00:00-06:00</updated>
-   <id>//research/2013/01/08/clapir</id>
+   <id>/research/2013/01/08/clapir</id>
    <content type="html"></content>
  </entry>
  
