@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jupyter Notebooks
+title: Jupyter Notebooks and Lectures
 ---
 
 For some papers, I create companion notebooks that I hope are useful for people delving into the work! The papers and links to their associated notebooks are below. Enjoy!
@@ -17,3 +17,6 @@ segmentation in layered music” *Proc. of the 17th International Society
 for Music Information Retrieval Conference (ISMIR).* New York City, NY,
 USA, 2016
 
+I also have created lecture slides for more general topics:
+
+[[slides (warning: large size)]](/public/lectures/self-similarity.html) Music structure and self-similarity - EECS352 - Machine Perception of Music, Winter 2017.
