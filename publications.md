@@ -4,6 +4,25 @@ title: Publications
 ---
 [Google scholar](https://scholar.google.com/citations?user=XHD-48cAAAAJ&hl=en)
 
+[[pdf]](/public/papers/wilkins_seetharaman_ismir18.pdf)
+[[data]](https://zenodo.org/record/1193957)
+[[demo]](https://interactiveaudiolab.github.io/demos/vocalset)
+Wilkins, Julia, **Prem Seetharaman**, and Bryan Pardo. 
+“VocalSet: A Singing Voice Dataset” *Proc. of the 19th International Society
+for Music Information Retrieval Conference (ISMIR).* Paris, France, 2018
+
+[[pdf]](/public/papers/manilow_seetharaman_ismir18.pdf)
+[[code]](https://github.com/interactiveaudiolab/nussl)
+Manilow, Ethan, **Prem Seetharaman**, and Bryan Pardo. “The Northwestern University 
+Source Separation Library” *Proc. of the 19th International Society
+for Music Information Retrieval Conference (ISMIR).* Paris, France, 2018
+
+[[pdf]](/public/papers/seetharaman_mysore_icassp18.pdf) 
+**Seetharaman, Prem**,  Gautham Mysore, Paris Smaragdis, and Bryan Pardo. 
+“Blind Estimation of the Speech Transmission Index for Speech Quality Prediction.” 
+*43rd International Conference on Acoustics, Speech, and Signal Processing*, 
+Calgary, Canada, March, 2018
+
 [[pdf]](/public/papers/manilow_seetharaman_pishdadian_waspaa2017.pdf)
 [[demo]](https://interactiveaudiolab.github.io/demos/multicue)
 Manilow, Ethan, **Prem Seetharaman**, Fatemeh Pishdadian, and Bryan Pardo. 
