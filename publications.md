@@ -7,7 +7,7 @@ title: Publications
 [[pdf]](/public/papers/wilkins_seetharaman_ismir18.pdf)
 [[data]](https://zenodo.org/record/1193957)
 [[demo]](https://interactiveaudiolab.github.io/demos/vocalset)
-Wilkins, Julia, **Prem Seetharaman**, and Bryan Pardo. 
+Wilkins, Julia, **Prem Seetharaman**, Alison Wahl, and Bryan Pardo. 
 “VocalSet: A Singing Voice Dataset” *Proc. of the 19th International Society
 for Music Information Retrieval Conference (ISMIR).* Paris, France, 2018
 
