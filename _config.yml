@@ -17,6 +17,7 @@ cv:
 
 paginate:		10
 gems: [jekyll-paginate, jekyll-picture-tag]
+baseurl: ""
 picture:
   source: public/images/
   output: generated
