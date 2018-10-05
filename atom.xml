@@ -4,7 +4,7 @@
  <title>Prem Seetharaman</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2017-10-26T11:18:49-07:00</updated>
+ <updated>2018-10-05T18:43:16-05:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Cover song identification with 2D Fourier transform sequences</title>
    <link href="/research/2016/12/01/coversong/"/>
-   <updated>2016-12-01T00:00:00-08:00</updated>
+   <updated>2016-12-01T00:00:00-06:00</updated>
    <id>/research/2016/12/01/coversong</id>
    <content type="html"></content>
  </entry>
@@ -23,7 +23,7 @@
  <entry>
    <title>Audealize</title>
    <link href="/research/2016/09/16/audealize/"/>
-   <updated>2016-09-16T00:00:00-07:00</updated>
+   <updated>2016-09-16T00:00:00-05:00</updated>
    <id>/research/2016/09/16/audealize</id>
    <content type="html"></content>
  </entry>
@@ -31,7 +31,7 @@
  <entry>
    <title>Source separation and layering structure</title>
    <link href="/research/2016/08/01/simultaneous/"/>
-   <updated>2016-08-01T00:00:00-07:00</updated>
+   <updated>2016-08-01T00:00:00-05:00</updated>
    <id>/research/2016/08/01/simultaneous</id>
    <content type="html"></content>
  </entry>
@@ -39,7 +39,7 @@
  <entry>
    <title>six pieces for two voices</title>
    <link href="/music/2016/03/13/sixpieces/"/>
-   <updated>2016-03-13T00:00:00-08:00</updated>
+   <updated>2016-03-13T00:00:00-06:00</updated>
    <id>/music/2016/03/13/sixpieces</id>
    <content type="html"></content>
  </entry>
@@ -47,7 +47,7 @@
  <entry>
    <title>four pieces for solo piano</title>
    <link href="/music/2015/07/05/fourpieces/"/>
-   <updated>2015-07-05T00:00:00-07:00</updated>
+   <updated>2015-07-05T00:00:00-05:00</updated>
    <id>/music/2015/07/05/fourpieces</id>
    <content type="html"></content>
  </entry>
@@ -55,7 +55,7 @@
  <entry>
    <title>SocialReverb</title>
    <link href="/research/2014/11/03/socialreverb/"/>
-   <updated>2014-11-03T00:00:00-08:00</updated>
+   <updated>2014-11-03T00:00:00-06:00</updated>
    <id>/research/2014/11/03/socialreverb</id>
    <content type="html"></content>
  </entry>
@@ -63,7 +63,7 @@
  <entry>
    <title>resonance, for solo cello</title>
    <link href="/music/2013/08/02/resonance/"/>
-   <updated>2013-08-02T00:00:00-07:00</updated>
+   <updated>2013-08-02T00:00:00-05:00</updated>
    <id>/music/2013/08/02/resonance</id>
    <content type="html"></content>
  </entry>
@@ -71,7 +71,7 @@
  <entry>
    <title>ClapIR</title>
    <link href="/research/2013/01/08/clapir/"/>
-   <updated>2013-01-08T00:00:00-08:00</updated>
+   <updated>2013-01-08T00:00:00-06:00</updated>
    <id>/research/2013/01/08/clapir</id>
    <content type="html"></content>
  </entry>
