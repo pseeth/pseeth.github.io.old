@@ -25,17 +25,16 @@ Calgary, Canada, March, 2018
 
 [[pdf]](/public/papers/manilow_seetharaman_pishdadian_waspaa2017.pdf)
 [[demo]](https://interactiveaudiolab.github.io/demos/multicue)
-Manilow, Ethan, **Prem Seetharaman**, Fatemeh Pishdadian, and Bryan Pardo. 
+Manilow, Ethan\*, **Prem Seetharaman**\*, Fatemeh Pishdadian\*, and Bryan Pardo. 
 "Predicting Algorithm Efficacy for Adaptive Multi-Cue Source Separation." 
-*Applications of Signal Processing to Audio and Acoustics, 2017. 
-WASPAA'17. IEEE Workshop on.* IEEE 2017
+*IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, 2017. 
+WASPAA'17.* (\* means equal contribution)
 
 [[pdf]](/public/papers/seetharaman_2dft_waspaa2017.pdf)
 [[demo]](https://interactiveaudiolab.github.io/demos/2dft)
 **Seetharaman, Prem**, Fatemeh Pishdadian, and Bryan Pardo. 
 "Music/voice separation using the 2D Fourier Transform."
-*Applications of Signal Processing to Audio and Acoustics, 2017. WASPAA'17. 
-IEEE Workshop on.* IEEE 2017
+*IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, 2017. WASPAA'17.*
 
 [[pdf]](/public/papers/donovan_seetharaman_web_audio.pdf) 
 [[link]](https://interactiveaudiolab.github.io/audealize_api/)
