@@ -4,6 +4,19 @@ title: Publications
 ---
 [Google scholar](https://scholar.google.com/citations?user=XHD-48cAAAAJ&hl=en)
 
+[[pdf]](/public/papers/seetharaman_voiceassist_chi19.pdf)
+**Seetharaman, Prem**, Gautham Mysore, Bryan Pardo, Paris Smaragdis, and Celso Gomes. “VoiceAssist: Guiding Users to High-Quality Voice Recordings”. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*. ACM. 2019
+
+[[pdf]](/public/papers/humphrey_spm19.pdf)
+Humphrey, Eric J., Sravana Reddy, **Prem Seetharaman**, Aparna Kumar, Rachel M Bittner, Andrew Demetriou, Sankalp Gulati, Andreas Jansson, Tristan Jehan, Bernhard Lehner, et al. “An Introduction to Signal Processing for Singing-Voice Analysis: High Notes in the Effort to Automate the Understanding of Vocals in Music”. *IEEE Signal Processing Magazine 36.1* (2019), pp. 82–94
+
+[[pdf]](/public/papers/seetharaman_bootstrapping_icassp19.pdf) 
+**Seetharaman, Prem**, Gordon Wichern, Jonathan Le Roux, and Bryan Pardo. "Bootstrapping Single-Channel Source Separation via Unsupervised Spatial Clustering on Stereo Mixtures". *44th International Conference on Acoustics, Speech, and Signal Processing*, Brighton, UK, May, 2019
+
+[[pdf]](/public/papers/seetharaman_class_icassp19.pdf)
+**Seetharaman, Prem**,  Gordon Wichern, Shrikant Venkataramani, and Jonathan Le Roux. “Class-Conditional Embeddings for Music Source Separation”
+*44th International Conference on Acoustics, Speech, and Signal Processing*, Brighton, UK, May, 2019
+
 [[pdf]](/public/papers/wilkins_seetharaman_ismir18.pdf)
 [[data]](https://zenodo.org/record/1193957)
 [[demo]](https://interactiveaudiolab.github.io/demos/vocalset)

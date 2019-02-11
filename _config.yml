@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:         true
 
 # Permalinks
@@ -10,13 +10,22 @@ excerpt_separator: "<!--more-->"
 # Setup
 title:            Prem Seetharaman
 tagline:          ''
-description:      'I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. My research is in machine learning, music information retrieval, audio source separation, music structure and similarity, and acoustics. I also <a href="http://soundcloud.com/seeth">write music</a>. Contact me at prem [at] u.northwestern.edu.'
+description:      '
+  I am a PhD candidate at Northwestern University in the 
+  <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, 
+  under Prof. Bryan Pardo. 
+  The objective of my research is to create machines that can 
+  understand the auditory world like humans can.
+  I work in machine learning, music information retrieval, 
+  audio source separation, music structure and similarity, acoustics, and human
+  computer interaction.
+'
 
 cv:
   link: /public/cv.pdf
 
 paginate:		10
-gems: [jekyll-paginate, jekyll-picture-tag]
+plugins: [jekyll-paginate, jekyll-picture-tag]
 baseurl: ""
 picture:
   source: public/images/

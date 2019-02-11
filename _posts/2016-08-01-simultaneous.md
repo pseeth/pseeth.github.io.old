@@ -4,9 +4,7 @@ title: Source separation and layering structure
 category: research
 ---
 
-<p class="thumbnail-image">
-{% picture half onemoretime.png %}
-</p>
+{% picture half onemoretime.png class="thumbnail-image"%}
 
 Audio source separation is the isolation of sound producing sources in an audio scene (e.g. isolating a horn section in a big band).
 
