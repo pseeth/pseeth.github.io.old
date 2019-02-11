@@ -4,13 +4,37 @@
  <title>Prem Seetharaman</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2018-10-05T20:12:11-05:00</updated>
+ <updated>2019-02-11T00:00:12-06:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Bootstrapping speech separation from unsupervised spatial separation</title>
+   <link href="/research/2019/02/10/bootstrapping-spatial/"/>
+   <updated>2019-02-10T00:00:00-06:00</updated>
+   <id>/research/2019/02/10/bootstrapping-spatial</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>VoiceAssist - guiding users to high-quality voice recordings</title>
+   <link href="/research/2019/01/10/voiceassist/"/>
+   <updated>2019-01-10T00:00:00-06:00</updated>
+   <id>/research/2019/01/10/voiceassist</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Adaptive multi-cue audio source separation</title>
+   <link href="/research/2017/10/15/waspaa/"/>
+   <updated>2017-10-15T00:00:00-05:00</updated>
+   <id>/research/2017/10/15/waspaa</id>
+   <content type="html"></content>
+ </entry>
  
  <entry>
    <title>Cover song identification with 2D Fourier transform sequences</title>

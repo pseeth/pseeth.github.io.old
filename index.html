@@ -31,8 +31,9 @@
 
   <style>
     .thumbnail-image {
-      max-height: 250px;
-	  overflow:hidden;
+      max-height: 260px;
+    overflow:hidden;
+    object-fit: cover;
 	  width:100%;
 	}
   </style>
@@ -44,7 +45,7 @@
     <div class="sidebar-about">
       <img style="border-radius: 50%; margin-left:10%; max-width:80%" src="/public/images/avatar.jpg">
       <h1>Prem Seetharaman</h1>
-      <p class="lead">I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. My research is in machine learning, music information retrieval, audio source separation, music structure and similarity, and acoustics. I also <a href="http://soundcloud.com/seeth">write music</a>. Contact me at prem [at] u.northwestern.edu.</p>
+      <p class="lead"> I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. The objective of my research is to create machines that can understand the auditory world like humans can. I work in machine learning, music information retrieval, audio source separation, music structure and similarity, acoustics, and human computer interaction. </p>
     </div>
 
     <ul class="sidebar-nav">
@@ -96,6 +97,10 @@
           
         
       
+        
+          
+        
+      
 
       <li class="sidebar-nav-item"><a href="/public/cv.pdf" target="_blank">CV</a></li>
     </ul>
@@ -109,6 +114,66 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/research/2019/02/10/bootstrapping-spatial/">
+        Bootstrapping speech separation from unsupervised spatial separation
+      </a>
+    </h1>
+
+    <span class="post-date">10 Feb 2019</span>
+
+    <p><img alt="test" class="thumbnail-image" src="/generated/bootstrapping-spatial/bootstrapping-800by213-3ec0bd.png" srcset="/generated/bootstrapping-spatial/bootstrapping-400by107-3ec0bd.png 400w, /generated/bootstrapping-spatial/bootstrapping-600by160-3ec0bd.png 600w, /generated/bootstrapping-spatial/bootstrapping-800by213-3ec0bd.png 800w, /generated/bootstrapping-spatial/bootstrapping-1000by267-3ec0bd.png 1000w"></p>
+
+<p>Separating an audio scene into isolated sources is a fundamental problem in computer audition, analogous to image segmentation in visual scene analysis. Source separation systems based on deep learning are currently the most successful approaches for solving the underdetermined separation problem, where there are more sources than channels. Traditionally, such systems are trained on sound mixtures where the ground truth decomposition is already known. Since most real-world recordings do not have such a decomposition available, this limits the range of mixtures one can train on, and the range of mixtures the learned models may successfully separate. In this work, we use a simple blind spatial source separation algorithm to generate estimated decompositions of stereo mixtures.</p>
+
+
+    
+      <p><a class="btn btn-sm btn-primary" href="/research/2019/02/10/bootstrapping-spatial//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+    </p>
+    
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/research/2019/01/10/voiceassist/">
+        VoiceAssist - guiding users to high-quality voice recordings
+      </a>
+    </h1>
+
+    <span class="post-date">10 Jan 2019</span>
+
+    <p><img alt="test" class="thumbnail-image" src="/generated/voiceassist/voiceassist-800by341-6008be.png" srcset="/generated/voiceassist/voiceassist-400by171-6008be.png 400w, /generated/voiceassist/voiceassist-600by256-6008be.png 600w, /generated/voiceassist/voiceassist-800by341-6008be.png 800w, /generated/voiceassist/voiceassist-1000by426-6008be.png 1000w"></p>
+
+<p>Voice recording is a challenging task with many pitfalls due to sub-par recording environments, mistakes in recording setup, microphone quality, etc. Newcomers to voice recording often have difficulty recording their voice, leading to recordings with low sound quality. Many amateur recordings of poor quality have two key problems: too much reverberation (echo), and too much background noise  (e.g. fans, electronics, street noise). We present VoiceAssist, a system that helps inexperienced users produce high quality recordings by providing real-time visual feedback on audio quality.</p>
+
+
+    
+      <p><a class="btn btn-sm btn-primary" href="/research/2019/01/10/voiceassist//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+    </p>
+    
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/research/2017/10/15/waspaa/">
+        Adaptive multi-cue audio source separation
+      </a>
+    </h1>
+
+    <span class="post-date">15 Oct 2017</span>
+
+    <p><img alt="test" class="thumbnail-image" src="/generated/primitives/timeline-800by393-7ce2fa.png" srcset="/generated/primitives/timeline-400by196-7ce2fa.png 400w, /generated/primitives/timeline-600by295-7ce2fa.png 600w, /generated/primitives/timeline-800by393-7ce2fa.png 800w, /generated/primitives/timeline-1000by491-7ce2fa.png 1000w"></p>
+
+<p>Audio source separation is the process of decomposing a signal containing sounds from multiple sources into a set of signals, each from a single source. Source separation algorithms typically leverage assumptions about  correlations between audio signal characteristics (“cues”) and the audio sources or mixing parameters, and exploit these to do separation. We train a neural network to predict quality of source separation, as measured by Signal to Distortion Ratio, or SDR. We do this for three source separation algorithms, each leveraging a different cue - repetition, spatialization, and harmonicity/pitch proximity. Our model estimates separation quality using only the original audio mixture and separated source output by an algorithm. These estimates are reliable enough to be used to guide switching between algorithms as cues vary. Our approach for separation quality prediction can be generalized to arbitrary source separation algorithms.</p>
+
+
+    
+      <p><a class="btn btn-sm btn-primary" href="/research/2017/10/15/waspaa//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+    </p>
+    
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/research/2016/12/01/coversong/">
         Cover song identification with 2D Fourier transform sequences
       </a>
@@ -116,20 +181,10 @@
 
     <span class="post-date">01 Dec 2016</span>
 
-    <p class="thumbnail-image">
-<picture>
-    <source srcset="/generated/coversong-600by247-387b86.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/coversong-400by165-387b86.png" media="(min-width: 40em)">
-    <source srcset="/generated/coversong-375by154-387b86.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/coversong-250by103-387b86.png" media="(min-width: 30em)">
-    <source srcset="/generated/coversong-525by216-387b86.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
-    <source srcset="/generated/coversong-350by144-387b86.png">
-    <img src="/generated/coversong-350by144-387b86.png" class="center-image" data-location="{{location}}" data-active="nil" alt="test" >
-  </picture>
-
-</p>
+    <p><img alt="test" class="thumbnail-image" src="/generated/coversong-800by329-387b86.png" srcset="/generated/coversong-400by165-387b86.png 400w, /generated/coversong-600by247-387b86.png 600w, /generated/coversong-800by329-387b86.png 800w, /generated/coversong-1000by411-387b86.png 1000w"></p>
 
 <p>We approach cover song identification using a novel time-series representation of audio based on the 2DFT. The audio is represented as a sequence of magnitude 2D Fourier Transforms (2DFT). This representation is robust to key changes, timbral changes, and small local tempo deviations. We look at cross-similarity between these time-series, and extract a distance measure that is invariant to music structure changes. Our approach is state-of-the-art on a recent cover song dataset, and expands on previous work using the 2DFT for music representation and work on live song recognition.</p>
+
 
     
       <p><a class="btn btn-sm btn-primary" href="/research/2016/12/01/coversong//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
@@ -146,20 +201,9 @@
 
     <span class="post-date">16 Sep 2016</span>
 
-    <p class="thumbnail-image">
-<picture>
-    <source srcset="/generated/audealize-600by433-0ac361.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/audealize-400by288-0ac361.png" media="(min-width: 40em)">
-    <source srcset="/generated/audealize-375by270-0ac361.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/audealize-250by180-0ac361.png" media="(min-width: 30em)">
-    <source srcset="/generated/audealize-525by379-0ac361.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
-    <source srcset="/generated/audealize-350by252-0ac361.png">
-    <img src="/generated/audealize-350by252-0ac361.png" class="center-image" data-location="{{location}}" data-active="nil" >
-  </picture>
+    <p><img class="thumbnail-image" src="/generated/audealize-800by577-0ac361.png" srcset="/generated/audealize-400by288-0ac361.png 400w, /generated/audealize-600by433-0ac361.png 600w, /generated/audealize-800by577-0ac361.png 800w, /generated/audealize-1000by721-0ac361.png 1000w"></p>
 
-</p>
-
-<p><a href="http://audealize.appspot.com">Audealize</a> is a new way of looking at audio production tools. Instead of the traditional complex interfaces consisting of knobs with hard-to-understand labels, Audealize provides a semantic interface. Simply describe the type of sound you&#39;re looking for in the search boxes, or click and drag around the maps to find new effects.</p>
+<p><a href="http://audealize.appspot.com">Audealize</a> is a new way of looking at audio production tools. Instead of the traditional complex interfaces consisting of knobs with hard-to-understand labels, Audealize provides a semantic interface. Simply describe the type of sound you’re looking for in the search boxes, or click and drag around the maps to find new effects.</p>
 
     
   </div>
@@ -173,22 +217,12 @@
 
     <span class="post-date">01 Aug 2016</span>
 
-    <p class="thumbnail-image">
-<picture>
-    <source srcset="/generated/onemoretime-600by420-bd1ff9.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/onemoretime-400by280-bd1ff9.png" media="(min-width: 40em)">
-    <source srcset="/generated/onemoretime-375by263-bd1ff9.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/onemoretime-250by175-bd1ff9.png" media="(min-width: 30em)">
-    <source srcset="/generated/onemoretime-525by368-bd1ff9.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
-    <source srcset="/generated/onemoretime-350by245-bd1ff9.png">
-    <img src="/generated/onemoretime-350by245-bd1ff9.png" class="center-image" data-location="{{location}}" data-active="nil" >
-  </picture>
-
-</p>
+    <p><img class="thumbnail-image" src="/generated/onemoretime-800by560-bd1ff9.png" srcset="/generated/onemoretime-400by280-bd1ff9.png 400w, /generated/onemoretime-600by420-bd1ff9.png 600w, /generated/onemoretime-800by560-bd1ff9.png 800w, /generated/onemoretime-1000by700-bd1ff9.png 1000w"></p>
 
 <p>Audio source separation is the isolation of sound producing sources in an audio scene (e.g. isolating a horn section in a big band).</p>
 
 <p>Nonnegative Matrix Factorization (NMF) is a popular source separation method. It learns a dictionary of spectral templates from the audio. Separation via NMF needs external guidance to group spectral templates by source.</p>
+
 
     
       <p><a class="btn btn-sm btn-primary" href="/research/2016/08/01/simultaneous//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
@@ -225,6 +259,7 @@
 
 <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213318744&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
 
+
     
   </div>
   
@@ -237,20 +272,10 @@
 
     <span class="post-date">03 Nov 2014</span>
 
-    <p class="thumbnail-image">
-<picture>
-    <source srcset="/generated/socialreverb-600by567-a3e89b.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/socialreverb-400by378-a3e89b.png" media="(min-width: 40em)">
-    <source srcset="/generated/socialreverb-375by354-a3e89b.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/socialreverb-250by236-a3e89b.png" media="(min-width: 30em)">
-    <source srcset="/generated/socialreverb-525by496-a3e89b.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
-    <source srcset="/generated/socialreverb-350by331-a3e89b.png">
-    <img src="/generated/socialreverb-350by331-a3e89b.png" class="center-image" data-location="{{location}}" data-active="nil" alt="test" >
-  </picture>
-
-</p>
+    <p><img alt="test" class="thumbnail-image" src="/generated/socialreverb-800by756-a3e89b.png" srcset="/generated/socialreverb-400by378-a3e89b.png 400w, /generated/socialreverb-600by567-a3e89b.png 600w, /generated/socialreverb-800by756-a3e89b.png 800w, /generated/socialreverb-864by816-a3e89b.png 864w"></p>
 
 <p><a href="http://socialreverb.org">SocialReverb</a> is a task designed to collect words that people use to describe reverberation. In collecting this vocabulary, we can map words people use to describe audio to actual tools that can manipulate the audio. Using that knowledge, we can develop tools that allow laymen to manipulate audio just by describing it.</p>
+
 
     
       <p><a class="btn btn-sm btn-primary" href="/research/2014/11/03/socialreverb//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
@@ -271,41 +296,21 @@
 
 <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103757019&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
 
-    
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/research/2013/01/08/clapir/">
-        ClapIR
-      </a>
-    </h1>
 
-    <span class="post-date">08 Jan 2013</span>
-
-    <p class="thumbnail-image">
-<picture>
-    <source srcset="/generated/clapir-600by368-94bab8.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/clapir-400by245-94bab8.png" media="(min-width: 40em)">
-    <source srcset="/generated/clapir-375by230-94bab8.png" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
-    <source srcset="/generated/clapir-250by153-94bab8.png" media="(min-width: 30em)">
-    <source srcset="/generated/clapir-525by322-94bab8.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
-    <source srcset="/generated/clapir-350by215-94bab8.png">
-    <img src="/generated/clapir-350by215-94bab8.png" class="center-image" data-location="{{location}}" data-active="nil" alt="test" >
-  </picture>
-
-</p>
-
-<p>ClapIR is an application that allows users to measure the acoustic properties of rooms quickly and easily. From a simple recording of a clap, or other loud noise, the app calculates reverberation time, decay curve, frequency decay, frequency response, and impulse spectra.</p>
-
-    
-      <p><a class="btn btn-sm btn-primary" href="/research/2013/01/08/clapir//#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
-    </p>
     
   </div>
   
 </div>
 
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page2">Older</a>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
 
 
     </div>
