@@ -29,7 +29,7 @@ plugins: [jekyll-paginate, jekyll-picture-tag]
 baseurl: ""
 picture:
   source: public/images/
-  output: generated
+  output: public/generated/
   markup: picture
   presets:
     # Full width pictures
