@@ -11,18 +11,37 @@ excerpt_separator: "<!--more-->"
 title:            Prem Seetharaman
 tagline:          ''
 description:      '
-  I am a PhD candidate at Northwestern University in the 
-  <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, 
-  under Prof. Bryan Pardo. 
+  I am a teaching fellow at Northwestern University.
+  I recieved my PhD in 2019, advised by
+  <a href="https://users.cs.northwestern.edu/~pardo/">Bryan Pardo</a>.
   The objective of my research is to create machines that can 
-  understand the auditory world like humans can.
-  I work in machine learning, music information retrieval, 
-  audio source separation, music structure and similarity, acoustics, and human
-  computer interaction.
+  understand the auditory world.
+  I work in computer audition, machine learning, and human computer
+  interaction.
 '
+
+sass:
+  sass_dir: assets/css
 
 cv:
   link: /public/cv.pdf
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+  bibliography_list_tag: p
+  bibliography_item_tag: p
+
+  source: ./_data
+  bibliography: publications.bib
+  bibliography_template: bib
+
+  replace_strings: false
+
+  query: "@*"
 
 paginate:		10
 plugins: [jekyll-paginate, jekyll-picture-tag]
