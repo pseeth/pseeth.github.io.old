@@ -4,13 +4,21 @@
  <title>Prem Seetharaman</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2019-11-04T00:48:19-06:00</updated>
+ <updated>2019-11-04T01:08:41-06:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Bootstrapping the learning process for computer audition</title>
+   <link href="/research/2019/09/01/thesis/"/>
+   <updated>2019-09-01T00:00:00-05:00</updated>
+   <id>/research/2019/09/01/thesis</id>
+   <content type="html"></content>
+ </entry>
  
  <entry>
    <title>Bootstrapping speech separation from unsupervised spatial separation</title>
