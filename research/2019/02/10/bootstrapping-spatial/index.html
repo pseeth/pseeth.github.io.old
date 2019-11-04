@@ -37,7 +37,7 @@
     <div class="sidebar-about">
       <img style="border-radius: 50%; margin-left:10%; max-width:80%" src="/public/images/avatar.jpg">
       <h1>Prem Seetharaman</h1>
-      <p class="lead"> I am a PhD candidate at Northwestern University in the <a href="http://music.cs.northwestern.edu">Interactive Audio Lab</a>, under Prof. Bryan Pardo. The objective of my research is to create machines that can understand the auditory world like humans can. I work in machine learning, music information retrieval, audio source separation, music structure and similarity, acoustics, and human computer interaction. </p>
+      <p class="lead"> I am a teaching fellow at Northwestern University. I recieved my PhD in 2019, advised by <a href="https://users.cs.northwestern.edu/~pardo/">Bryan Pardo</a>. The objective of my research is to create machines that can understand the auditory world. I work in computer audition, machine learning, and human computer interaction. </p>
     </div>
 
     <ul class="sidebar-nav">
@@ -105,7 +105,7 @@
       <div class="post">
   <h1 class="post-title">Bootstrapping speech separation from unsupervised spatial separation</h1>
   <span class="post-date">10 Feb 2019</span>
-  <p><img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/bootstrapping-800by213-3ec0bd.png" srcset="/public/generated/bootstrapping-spatial/bootstrapping-400by107-3ec0bd.png 400w, /public/generated/bootstrapping-spatial/bootstrapping-600by160-3ec0bd.png 600w, /public/generated/bootstrapping-spatial/bootstrapping-800by213-3ec0bd.png 800w, /public/generated/bootstrapping-spatial/bootstrapping-1000by267-3ec0bd.png 1000w"></p>
+  <p><img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/bootstrapping-800-3ec0bd.png" srcset="/public/generated/bootstrapping-spatial/bootstrapping-400-3ec0bd.png 400w, /public/generated/bootstrapping-spatial/bootstrapping-600-3ec0bd.png 600w, /public/generated/bootstrapping-spatial/bootstrapping-800-3ec0bd.png 800w, /public/generated/bootstrapping-spatial/bootstrapping-1000-3ec0bd.png 1000w" /></p>
 
 <p>Separating an audio scene into isolated sources is a fundamental problem in computer audition, analogous to image segmentation in visual scene analysis. Source separation systems based on deep learning are currently the most successful approaches for solving the underdetermined separation problem, where there are more sources than channels. Traditionally, such systems are trained on sound mixtures where the ground truth decomposition is already known. Since most real-world recordings do not have such a decomposition available, this limits the range of mixtures one can train on, and the range of mixtures the learned models may successfully separate. In this work, we use a simple blind spatial source separation algorithm to generate estimated decompositions of stereo mixtures.</p>
 
@@ -113,11 +113,14 @@
 
 <p>These estimates, together with a weighting scheme in the time-frequency domain, based on confidence in the separation quality, are used to train a deep learning model that can be used for single-channel separation, where no source direction information is available. This demonstrates how a simple cue such as the direction of origin of source can be used to bootstrap a model for source separation that can be used in situations where that cue is not available.</p>
 
-<!-- {::nomarkdown}<img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/deep_clustering-800by361-f9d98b.png" srcset="/public/generated/bootstrapping-spatial/deep_clustering-400by181-f9d98b.png 400w, /public/generated/bootstrapping-spatial/deep_clustering-600by271-f9d98b.png 600w, /public/generated/bootstrapping-spatial/deep_clustering-800by361-f9d98b.png 800w, /public/generated/bootstrapping-spatial/deep_clustering-1000by452-f9d98b.png 1000w">{:/nomarkdown}
+<!-- <img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/deep_clustering-800-f9d98b.png" srcset="/public/generated/bootstrapping-spatial/deep_clustering-400-f9d98b.png 400w, /public/generated/bootstrapping-spatial/deep_clustering-600-f9d98b.png 600w, /public/generated/bootstrapping-spatial/deep_clustering-800-f9d98b.png 800w, /public/generated/bootstrapping-spatial/deep_clustering-1000-f9d98b.png 1000w">
 
-{::nomarkdown}<img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/confidence-800by275-d4c024.png" srcset="/public/generated/bootstrapping-spatial/confidence-400by137-d4c024.png 400w, /public/generated/bootstrapping-spatial/confidence-600by206-d4c024.png 600w, /public/generated/bootstrapping-spatial/confidence-800by275-d4c024.png 800w, /public/generated/bootstrapping-spatial/confidence-1000by343-d4c024.png 1000w">{:/nomarkdown}
 
-{::nomarkdown}<img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/results-800by393-e732e2.png" srcset="/public/generated/bootstrapping-spatial/results-400by197-e732e2.png 400w, /public/generated/bootstrapping-spatial/results-600by295-e732e2.png 600w, /public/generated/bootstrapping-spatial/results-800by393-e732e2.png 800w, /public/generated/bootstrapping-spatial/results-1000by492-e732e2.png 1000w">{:/nomarkdown} -->
+<img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/confidence-800-d4c024.png" srcset="/public/generated/bootstrapping-spatial/confidence-400-d4c024.png 400w, /public/generated/bootstrapping-spatial/confidence-600-d4c024.png 600w, /public/generated/bootstrapping-spatial/confidence-800-d4c024.png 800w, /public/generated/bootstrapping-spatial/confidence-1000-d4c024.png 1000w">
+
+
+<img alt="test" class="thumbnail-image" src="/public/generated/bootstrapping-spatial/results-800-e732e2.png" srcset="/public/generated/bootstrapping-spatial/results-400-e732e2.png 400w, /public/generated/bootstrapping-spatial/results-600-e732e2.png 600w, /public/generated/bootstrapping-spatial/results-800-e732e2.png 800w, /public/generated/bootstrapping-spatial/results-1000-e732e2.png 1000w">
+ -->
 
 <p>This work was a collaboration with Mitsubishi Electric Research Labs (MERL).</p>
 
