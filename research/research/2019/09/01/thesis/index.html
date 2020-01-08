@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Bootstrapping the learning process for computer audition &middot; Prem Seetharaman
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <script src="/public/js/picturefill.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js"></script>
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <img style="border-radius: 50%; margin-left:10%; max-width:80%" src="/public/images/avatar.jpg">
+      <h1>Prem Seetharaman</h1>
+      <p class="lead"> I am a teaching fellow at Northwestern University. I recieved my PhD in 2019, advised by <a href="https://users.cs.northwestern.edu/~pardo/">Bryan Pardo</a>. The objective of my research is to create machines that can understand the auditory world. I work in computer audition, machine learning, and human computer interaction. </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/research">Research</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/music">Music</a>
+      </li>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/notebooks/">Jupyter Notebooks and Lectures</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/publications/">Publications</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <li class="sidebar-nav-item"><a href="/public/cv.pdf" target="_blank">CV</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Bootstrapping the learning process for computer audition</h1>
+  <span class="post-date">01 Sep 2019</span>
+  <p><img alt="test" class="thumbnail-image" src="/public/generated/thesis/bootstrapping-800-dc83ed.png" srcset="/public/generated/thesis/bootstrapping-400-dc83ed.png 400w, /public/generated/thesis/bootstrapping-600-dc83ed.png 600w, /public/generated/thesis/bootstrapping-800-dc83ed.png 800w, /public/generated/thesis/bootstrapping-1000-dc83ed.png 1000w" /></p>
+
+<p>I defended my thesis in September 2019! It was about learning to segment complex auditory scenes into constituent sources without access to ground truth training data. I developed a method for bootstrapping a deep learning model via primitives - hard-wired auditory grouping principles that have been observed in the mammalian auditory cortex. The primitive estimates were then used in concert with a confidence measure to train a deep audio source separation model.</p>
+
+<!--more-->
+
+<p>The human auditory system is remarkable, easily parsing the complex mixtures of speech, music, and environmental sounds that we encounter every day. To appreciate the complexity of the task set before our ears, consider this thought experiment: imagine a crowded lake during summer. Boats are traveling across it in different directions and people are swimming and splashing around. All of this activity manifests as waves rippling across the surface of the lake. Two small channels of water extend out from the lake. The activity on the lake causes waves that reach the channels, causing them to swell and recede. Your task is to describe the activity taking place on the lake, such as how many boats there are, their direction of travel, what kind of boats, how many people there are, how far the boats are, etc. The catch is that you can only observe the two small channels extending from the lake. This seems impossible. Yet, the human auditory system deals with precisely this task all the time and does it with astounding efficacy. The lake of activity (the sounds around us) causes waves (sound pressure waves in air) that reach the two channels (our ears). We process these waves in real-time into an understanding of the auditory world around us.</p>
+
+<p>Computer audition is the study of how machines can organize, parse, and understand the auditory ``lake’’ of activity around us. A fundamental problem in computer audition is <em>audio source separation</em>. Source separation is the isolation of a specific sound (e.g. a single speaker) in a complex audio scene, like a cocktail party. Humans, as evidenced by our daily experience with sounds as well as empirical studies manage the source separation task very effectively, attending to sources of interest in complex scenes. In this work, I create computational methods for audio source separation that are inspired by the abilities of humans. It is important to note that algorithms that are inspired by human abilities do not necessarily have to use the same underlying mechanics that humans use to perform these tasks.</p>
+
+<p>Deep learning approaches are currently state-of-the-art for source separation tasks. They are typically trained on many examples (e.g. tens of thousands) where each source (e.g. a voice) was recorded in isolation and then the recordings are artificially mixed together. The mixture and the ground truth decomposition of the mixture are presented to the learner as the desired input/output examples. Although we have large collections of isolated speech, we don’t have large collections of isolated recordings for every arbitrary sound. Artificial mixing also cannot capture the full range of sound source motions, reverberations, and sound radiation patterns that exist in real-world mixtures. This fundamentally limits the range of mixtures and sounds that existing models can learn to separate.</p>
+
+<p>In contrast, humans are never given a decomposition of the complex auditory scenes they encounter, yet they develop broadly robust abilities to parse audio scenes. There is experimental evidence that the brain uses fundamental grouping mechanisms, called primitives, to segment audio scenes even when they are composed of never-before-heard sounds. This, in turn allows learning about sound sources without the requirement to hear them in isolation.</p>
+
+<p><strong>The problems I am concerned with are the following: How can we learn audio source separation models directly from complex auditory scenes instead of from artificial scenes created to give us perfect ground truth? How can we leverage a combination of learned and primitive source separation models to produce robust source separation that performs well even when mixing conditions vary?</strong></p>
+
+<p>My approach for training a deep computer audition model without ground truth is as follows. I first apply primitive audio source separation algorithms to an auditory scene. These algorithms are inspired by human audition, such as our tendencies to group sources by spatial location, repeating vs not repeating, common fate, pitch and time proximity, and so on. Then, I estimate the confidence I have in the labels produced by the primitives. The goal is to focus the learning process for the deep network on time-frequency points whose labels are more likely to be correct. Finally, we train a network using the labels produced by the primitive audio source separation algorithms in conjunction with a modified deep clustering loss function that incorporates the concept of confidence weights. This training methodology makes the network focus on points that we are more confident in. The trained network can then be applied in situations where primitives fail. The result is a source separation model that can learn to segment the auditory scene without ground truth by bootstrapping its understanding of the auditory world using primitive unsupervised audio source separation algorithms.</p>
+
+<ul>
+  <li><a href="/public/papers/thesis.pdf">Thesis</a></li>
+  <li><a href="/public/thesis/">Audio examples</a></li>
+</ul>
+
+
+</div>
+
+<!--
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/research/2019/02/10/bootstrapping-spatial/">
+            Bootstrapping speech separation from unsupervised spatial separation
+            <small>10 Feb 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/research/2019/01/10/voiceassist/">
+            VoiceAssist - guiding users to high-quality voice recordings
+            <small>10 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/research/2017/10/15/waspaa/">
+            Adaptive multi-cue audio source separation
+            <small>15 Oct 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+-->
+
+    </div>
+
+  </body>
+</html>
