@@ -1,9 +1,7 @@
 ---
-title: resonance, for solo cello
-date: 2013-08-02 00:00:00 Z
-categories:
-- music
 layout: post
+title: resonance, for solo cello
+category: music
 ---
 
 [Score](/public/scores/resonance.pdf)

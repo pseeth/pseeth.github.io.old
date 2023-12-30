@@ -1,9 +1,7 @@
 ---
-title: SocialReverb
-date: 2014-11-03 00:00:00 Z
-categories:
-- research
 layout: post
+title: SocialReverb
+category: research
 ---
 
 {% picture full socialreverb.png alt="test" class="thumbnail-image"%}

@@ -1,9 +1,7 @@
 ---
-title: Bootstrapping speech separation from unsupervised spatial separation
-date: 2019-02-10 00:00:00 Z
-categories:
-- research
 layout: post
+title: Bootstrapping speech separation from unsupervised spatial separation
+category: research
 ---
 
 {% picture half bootstrapping-spatial/bootstrapping.png alt="test" class="thumbnail-image"%}

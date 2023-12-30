@@ -1,9 +1,7 @@
 ---
-title: VoiceAssist - guiding users to high-quality voice recordings
-date: 2019-01-10 00:00:00 Z
-categories:
-- research
 layout: post
+title: VoiceAssist - guiding users to high-quality voice recordings
+category: research
 ---
 
 {% picture half voiceassist/voiceassist.png alt="test" class="thumbnail-image"%}

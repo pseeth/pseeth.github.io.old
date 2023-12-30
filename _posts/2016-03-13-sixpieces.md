@@ -1,9 +1,7 @@
 ---
-title: six pieces for two voices
-date: 2016-03-13 00:00:00 Z
-categories:
-- music
 layout: post
+title: six pieces for two voices
+category: music
 ---
 
 [Score](/public/scores/sixpiecesfortwovoices.pdf)

@@ -1,9 +1,7 @@
 ---
-title: Source separation and layering structure
-date: 2016-08-01 00:00:00 Z
-categories:
-- research
 layout: post
+title: Source separation and layering structure
+category: research
 ---
 
 {% picture half onemoretime.png class="thumbnail-image"%}

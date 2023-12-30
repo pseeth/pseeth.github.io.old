@@ -1,9 +1,7 @@
 ---
-title: four pieces for solo piano
-date: 2015-07-05 00:00:00 Z
-categories:
-- music
 layout: post
+title: four pieces for solo piano
+category: music
 ---
 
 [Score](/public/scores/fourpiecesforpiano.pdf)

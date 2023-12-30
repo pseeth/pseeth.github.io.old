@@ -1,6 +1,6 @@
 ---
-title: Jupyter Notebooks and Lectures
 layout: page
+title: Jupyter Notebooks and Lectures
 ---
 
 For some papers, I create companion notebooks that I hope are useful for people delving into the work! The papers and links to their associated notebooks are below. Enjoy!

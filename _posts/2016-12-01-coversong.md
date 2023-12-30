@@ -1,9 +1,7 @@
 ---
-title: Cover song identification with 2D Fourier transform sequences
-date: 2016-12-01 00:00:00 Z
-categories:
-- research
 layout: post
+title: Cover song identification with 2D Fourier transform sequences
+category: research
 ---
 
 {% picture half coversong.png alt="test" class="thumbnail-image"%}
